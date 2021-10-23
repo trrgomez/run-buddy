@@ -10,6 +10,26 @@ body {
     font-family: Helvetica, Arial, sans-serif;
   }
 
+  section {
+    padding: 60px;
+  }
+
+  /* hero section */
+  #hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+  }
+
+  .hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border: solid 3px #024e76;
+  }
+
   /* apply styles to <header> */
 header {
     padding: 20px 35px;
