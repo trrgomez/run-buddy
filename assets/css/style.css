@@ -12,10 +12,44 @@ body {
 
   section {
     padding: 60px;
+  } 
+
+  /* apply styles to <header> */
+header {
+    padding: 20px 35px;
+    background-color: #39a6b2;
   }
 
-  /* hero section */
-  #hero {
+  header h1 {
+    display: inline;
+    font-weight: bold;
+    font-size: 36px;
+    color: #fce138;
+    margin: 0;
+  }
+  
+  header a {
+    color: #fce138;
+    text-decoration: none;
+  }
+
+  header nav {
+      float: right;
+      margin: 7px 0;
+  }
+
+  header nav ul li {
+    display: inline;
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+
+   /* hero section start*/
+   #hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
     background-position: center;
@@ -66,40 +100,6 @@ body {
     font-size: 16px;
   }
   /* hero section ends */
-
-  /* apply styles to <header> */
-header {
-    padding: 20px 35px;
-    background-color: #39a6b2;
-  }
-
-  header h1 {
-    display: inline;
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
-  }
-  
-  header a {
-    color: #fce138;
-    text-decoration: none;
-  }
-
-  header nav {
-      float: right;
-      margin: 7px 0;
-  }
-
-  header nav ul li {
-    display: inline;
-  }
-
-  header nav ul li a {
-    margin: 0 30px;
-    font-weight: lighter;
-    font-size: 22px;
-  }
 
   footer {
     background: #fce138;
