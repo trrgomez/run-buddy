@@ -75,6 +75,7 @@ header {
   }
 
    /* hero section start*/
+   /* homepage hero */
    #hero {
     background-image: url("../images/hero-bg.jpg");
     background-size: cover;
@@ -82,6 +83,15 @@ header {
     height: 600px;
     position: relative;
   }
+
+    /* secondary page hero */
+  .hero-secondary {
+    margin: 20px;
+    background-color: black;
+    font-size: 20px;
+    color: red;
+  }
+
 
   .hero-form {
     position: absolute;
